@@ -9,7 +9,7 @@
 	margin: 0.2em 0.1em;
 	font-size: 2em;
 /*	padding-top: 2.25em;*/
-	width: 5.5em;
+	/*width: 5.5em;*/
 	/*height: 5.5em;*/
 	border-radius: 4px;
 	background: none;
@@ -64,7 +64,7 @@
 	height: 100%;
 	overflow-y: auto;
 	overflow-x: hidden;
-	background: #34495e;
+	background: rgba(255, 255, 255, .5);
 	text-align: left;
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
@@ -96,9 +96,9 @@
 	display: inline-block;
 	margin: 3em 0 1em 2em;
 	width: 12em;
-	height: 12em;
+	height: 100%;
 	border-radius: 4px;
-	background: #6686a7;
+	background: #575A65;
 	text-align: center;
 	-webkit-transition: -webkit-transform 0.3s, background 0.3s;
   transition: transform 0.3s, background 0.3s;
@@ -157,7 +157,7 @@
 	bottom: 100%;
 	left: 0;
 	margin: 0.25em 0;
-	height: 0.65em;
+	height: 100%;
 	border-radius: 2px;
 	background: rgba(255,255,255,0.1);
 	-webkit-backface-visibility: hidden;
